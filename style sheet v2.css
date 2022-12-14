@@ -1,0 +1,429 @@
+ /* CSS Document for Final Web Page 
+ by Gracie Correll */
+ body{
+	 background-color: #f8fafa;
+	 margin-right: 15%;
+	 margin-left: 15%;
+	 width: 70%;
+ }
+ 
+ h1{ font-family: Raleway; }
+ h2{ font-family: Raleway;
+ color: #222222;
+ }
+ h3{ font-family: Raleway;
+ color: #222222;
+ }
+ p { font-family: Raleway;
+ color: #222222;
+ }
+ 
+ 
+ .banner{
+	width:100%;
+ }
+ 
+ 
+ body nav{
+	 width:100%;
+	 background-color: #F29B30;
+	 color: #ffffff
+	 font-family: helvetica;
+ }
+ 
+ .topnav a{
+	 color: #ffffff;
+	 padding-left: 5px;
+	 padding-right: 5px;
+	 text-decoration: blink;
+ }
+ 
+ .topnav a:hover{
+	 background-color:#7FCEC8;
+	 color: #ffffff;
+ }
+ 
+ .topnav .active{
+	 background-color: #D96941;
+	 color: #ffffff;
+ }
+ 
+
+
+#features .feature ul {
+    margin: 5px 200px;
+}
+
+
+#features ul img.feature-1 {
+    background:img('icons/photography icon blk text.png') no-repeat top left;
+
+	width: 137px;
+    padding-top: 30px;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+	
+}
+
+#features ul img.feature-2 {
+    background: img('icons/graphic design icon blk text.png') no-repeat top center;
+
+	width: 150px;
+    padding-top: 30px;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+	
+}
+#features ul img.feature-3 {
+    background: img('icons/videography icon blk text.png') no-repeat top right;
+
+	width: 137px;
+    padding-top: 30px;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+#primary-content .primary-content {
+    background-color: #f8fafa;
+    padding-top: 70px;
+    text-align: center;
+}
+#primary-content h2 .primary-content {
+    display: block;
+    margin: 150px auto 40px auto;
+    width: 300px;
+    border-bottom: 4px solid #7FCEC8;
+    padding: 0px 10px 10px 0;
+}
+
+#primary-content p .primary-content {
+	margin: 30px 50px 30px 50px;
+	text-align: center;
+	
+}
+
+
+
+#secondary-content .secondary-content{
+	 background-color: #f8fafa;
+	 display: block;
+    margin: 50px auto 30px auto;
+    width: 700px;
+	 
+ }
+ 
+ 
+
+#secondary-content h2 .secondary-content{  border-bottom: 4px solid #7FCEC8;
+text-align: center;
+ padding: 0px 10px 10px 0;
+ width: 700px;
+}
+
+#biz-hours h2.biz-hours { background-color: #7FCEC8;
+height: 30px;
+margin: 30px 700px auto auto;
+}
+
+table .table {border-collapse: collapse;
+width: 70%;
+margin: auto;
+}
+
+#table td, th .table{border: 2px solid #7fcec8;
+padding: 8px;}
+
+tr:nth-child(even).table {background-color: #7fcec8;}
+
+#table h2 .table {border-bottom: 4px solid #7FCEC8;
+ padding: 0px 10px 10px 0;
+ margin: 30px auto 30px auto;
+color: #222222;
+text-align: center;}
+
+#table h3.table {
+	color: #222222;
+}
+
+th .table{color: #222222}
+td .table{ color: #222222}
+
+#packages h2.packages {color:#222222;
+border-bottom: 4px solid #7FCEC8;
+ padding: 0px 10px 10px 0;
+ margin: 50px auto 30px auto;
+ font-family: raleway;
+}
+
+#packages ul.packages{
+	color:#222222;
+	font-size:20px;
+	font-family: raleway;
+}
+
+#lets-chat body .lets-chat{
+	background-color:#f8fafa;
+	margin-right:15%;
+	margin-left:15%;
+	width: 70%;	
+}
+ 
+ #lets-chat section .lets-chat{
+	 background-color:#f29b30;
+	 color: #222222;
+	 padding:5px;
+	 margin: 30px 600px auto auto;
+	 font-family:raleway;
+ }
+ 
+ #lets-chat h2.lets-chat{
+	 color:#222222;
+	 border-bottom: 4px solid #7FCEC8;
+ padding: 0px 10px 10px 0;
+ margin: 50px auto 30px auto;
+ font-family: raleway;
+	 
+ }
+ 
+ #header h1 .header{  color:#222222;
+	 
+ padding: 0px 10px 10px 0;
+ margin: 50px auto 30px auto;
+ font-family: raleway;
+	 
+ }
+ 
+ h3 { color:#222222;
+	 border-bottom: 4px solid #7FCEC8;
+ padding: 0px 10px 10px 0;
+ margin: 50px auto 50px auto;
+ font-family: raleway;
+	 
+ }
+ 
+
+#video h3.video_container { color:#222222;
+	 border-bottom: 4px solid #7FCEC8;
+ padding: 0px 10px 10px 0;
+ margin: 50px auto 30px auto;
+ font-family: raleway;
+	 
+ }
+
+ 
+ 
+.fling-minislide {width: 50%; margin: auto; padding-bottom: 45%; overflow:hidden; position:relative;}
+.fling-minislide img{position:absolute; animation:fling-minislide 25s infinite; opacity:0; width: 100%; height: auto;}
+
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(5){animation-delay:0s;}
+.fling-minislide img:nth-child(4){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:10s;}
+.fling-minislide img:nth-child(2){animation-delay:15s;}
+.fling-minislide img:nth-child(1){animation-delay:20s;}
+ 
+ 
+ 
+ 
+ .video_container{
+	 position: relative;
+	 padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+ }
+ 
+ iframe, ._video_container object{
+	 border: none;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+ }
+ 
+ body footer{
+	 width: 100%;
+	 font-style: italic;
+	 text-align:center;
+ }
+ 
+ @media only screen and (max-width: 1100px) {
+	 .fling-minislide{display: none;}
+ }
+ 
+ @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .topnav{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	 background-color: #F29B30;
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: #323232;}
+ }
+ 
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .feature{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 float: center;
+	 text-align: center;
+	}
+ }
+ 
+   @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .feature-1{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 float: center;
+	 text-align: center;
+	}
+ }
+
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .feature-2{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 float: center;
+	 text-align: center;
+	}
+ }
+
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .feature-3{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 float: center;
+	 text-align: center;
+	}
+ }
+	 	 
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .primary-content{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	 }
+ }
+	 	 
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .secondary-content{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	 background-color: #000000;
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: #323232;}
+ }
+	 	 
+  @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .biz-hours{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	}
+ }
+	 	
+@media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .table{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	}
+ }
+ 
+ @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .packages{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	}
+ }
+	
+ @media only screen and (max-width: 600px){
+	 body{width: 90%;
+	 margin-left: 5%;
+	 margin-right: 5%;}
+	 .lets-chat{width: 100%;
+	 overflow: hidden;}
+	 a{width: 100%;
+	 display: block;
+	 text-align: center;
+	}
+ }	
+	 @media only screen and (max-width: 600px) {
+		 input .lets-chat{width: 100%}
+		 body .lets-chat {margin-right: 5%;
+		 margin-left: 5%;
+		 width: 90%}	 
+	 }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

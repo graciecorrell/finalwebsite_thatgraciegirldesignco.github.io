@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Page</title>
+<link href="style sheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav>
+<div class="topnav">
+<a href = "index.html" class="index.html">HOME</a>
+<a href = "portfolio page.html">See My Work</a>
+<a href = "contact page.html">Contact Me</a>
+</nav>
+
+<div id="biz-hours">
+    <div class="wrapper">
+<h2>BUSINESS HOURS </h2>
+<h3> We are open from 8 to 5 all week long! </h3>
+
+<script>
+var current= new Date ()
+var day_night=current.getHours()
+if (day_night<=17)
+document.write("<img class='timepic' src='icons/sun banner.png'>")
+else
+document.write("<img class='timepic' src='icons/moon banner.png'>")
+</script>
+</div>
+</div>
+
+
+<div id="table">
+    <div class="wrapper">
+<table style="30%">
+<h2>BOOK YOUR TIME WITH ME</h2>
+<h3><center>Choose from a time and date available below!</center></h3>
+<tr>
+<th>Date</th>
+<th>Time</th>
+</tr>
+<tr>
+<td>December 15th</td>
+<td>11:00am</td>
+</tr>
+<tr>
+<td>December 17th</td>
+<td>2:00pm</td>
+</tr>
+<tr>
+<td>December 21st</td>
+<td>1:00pm</td>
+</tr>
+<tr>
+<td>January 3rd</td>
+<td>10:00am</td>
+</tr>
+<tr>
+<td>January 4th</td>
+<td>10:00am</td>
+</tr>
+<tr>
+<td>January 10rd</td>
+<td>3:00pm</td>
+</tr>
+
+</table>
+</div>
+</div>
+
+<div id="packages">
+    <div class="wrapper">
+<h2>PACKAGES OFFERED</h2>
+<ul>
+<li>Mini Photography Session $150</li>
+<li>2 Hour Photography Session $250</li>
+<li>Full Styled Photography Session $450</li>
+<li>Livestock Photography Package $450</li>
+<li>Livestock Photography,and Marketing Materials $800</li>
+<li>Livestock Sale Package $900</li>
+<li>Logo Design $150</li>
+<li>Marketing Material Design $300</li>
+<li>Commercial Video $350</li>
+
+</ul>
+</div>
+</div>
+
+<div id="lets-chat">
+    <div class="wrapper">
+<h2>LETS CHAT</h2>
+
+<section>
+<form action="mailto:gcorrell1336@students.mpcc.edu" method="post" enctype="text/plain">
+Name<br>
+<input type="text" name="name" placeholder="Your name here..."><br>
+E-mail<br>
+<input type="text" name="mail" placeholder="Your email here..."><br>
+Comment<br>
+<input type="text" name="comment" placeholder="Your questions or comments here..." size="50"><br><br>
+<input type="Submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</section>
+</div>
+</div>
+
+</body>
+</html>
